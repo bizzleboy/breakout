@@ -115,7 +115,7 @@ function collisionDetection() {
           ballColor = getRandomColor();
           score++;
           if (score == brickColumnCount * brickRowCount) {
-            alert("you win sweet tits");
+            alert("you win");
             document.location.reload();
           }
         }
